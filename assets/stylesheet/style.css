@@ -102,7 +102,7 @@ body{
 .head-sec1 a{
 	text-decoration: none;
 	color: white;
-	padding-left: 10px;
+	padding-right: 10px;
 	font-size: 10px;
 }
 .address{
@@ -118,6 +118,10 @@ body{
 	padding-right: 15px;
 	text-transform: uppercase;
 	font-size: 13px;
+	font-weight: 600;
+}
+.nav-bar a:hover{
+	color: #fd656b;
 }
 .btn{
 	width: 120px;
@@ -162,7 +166,7 @@ body{
 	margin-bottom: 250px;
 }
 .part2{
-	background-color: #e5edfa;
+	background-color: #f6f9fe;
 }
 .part2 h3{
 	font-size: 25px;
@@ -222,7 +226,7 @@ h2{
 	right: 380px;
 }
 .col3{
-	background-color: #e5edfa;
+	background-color: #f6f9fe;
 	margin: 20px;
 }
 .part4 h2{
@@ -253,7 +257,7 @@ h2{
 	font-size: 10px;
 }
 .part5{
-	background-color: #e5edfa;
+	background-color: #f6f9fe;
 }
 .part5 img{
 	width: 240px;
@@ -283,7 +287,7 @@ h2{
 	width: 25%;
 	height: 350px;
 	margin: 20px;
-	background-color: #e5edfa;
+	background-color: #f6f9fe;
 }
 .col5 img{
 	width: 100%;
@@ -292,7 +296,7 @@ h2{
 	padding: 20px;
 }
 .main-news h6{
-	font-size: 8px;
+	font-size: 10px;
 	color: #fd676d;
 	margin-bottom: 20px;
 }
@@ -329,15 +333,6 @@ h2{
 	margin-bottom: 20px;
 	border: 1px solid rgb(212, 206, 241);
 }
-input .ip-services{
-	background-color: #012d5b;
-	color: white;
-	width: 450px;
-	border-radius: 8px;
-	padding: 15px;
-	margin-bottom: 20px;
-	border: 1px solid rgb(212, 206, 241);
-}
 .wraptxt{
 	display: flex;
 	flex-wrap: wrap;
@@ -348,7 +343,7 @@ input .ip-services{
 
 /*footer*/
 .footer{
-	background-color: #e5edfa;	
+	background-color: #f6f9fe;	
 }
 .footer .sec1{
 	width: 25%;
@@ -382,6 +377,9 @@ input .ip-services{
 .footer a{
 	text-decoration: none;
 	color: #9a9faa;
+}
+.footer a:hover{
+	color: #012d5b;
 }
 .footer hr{
 	color: #a6bfe2;
@@ -535,6 +533,7 @@ span{
 .blog-content{
 	width: 550px;
 	height: 500px;
+	box-shadow: 6px 6px 12px 3px rgba(207, 204, 204, 0.6);
 	margin-bottom: 20px;
 }
 .blog-sec1 img{
@@ -613,10 +612,17 @@ span{
 	border-radius: 8px;
 }
 .search input{
-	padding: 5px;
+	padding: 10px;
+	width: 170px;
+}
+.search i{
+	background-color: #fd656b;
+	color: white;
+	padding: 8px 10px;
+	align-items: baseline;
 }
 .search, .category, .recentpost, .tagclouds, .insta, .news{
-	background-color: rgb(236, 234, 236);
+	background-color: #fbf9ff;
 	margin: 10px;
 	padding: 10px;
 }
@@ -647,8 +653,11 @@ span{
 	font-size: 10px;
 	font-weight: 400;
 }
-.recentpost p{
+.recentpost time{
 	font-size: 8px;
+}
+.recentpost .info{
+	text-align: left;
 }
 .tc-box{
 	background-color: white;
@@ -663,6 +672,9 @@ span{
 	width: 90%;
 	margin-bottom: 10px;
 	margin-right: 10px;
+}
+.news input{
+	width: 100%;
 }
 
 
